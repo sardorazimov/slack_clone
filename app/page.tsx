@@ -1,8 +1,11 @@
+import { AuthScreen } from "./auth/_components/auth-screen"
 
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <AuthScreen/>
+    </div>
   )
 }
 
